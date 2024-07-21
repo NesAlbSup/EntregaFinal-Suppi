@@ -110,3 +110,6 @@ Utilizar el botón "Comprar Ahora" para una compra directa.
 Carrito y Checkout
 El carrito permite revisar los artículos seleccionados, actualizar cantidades, eliminar artículos y proceder al checkout. En la página de checkout, se pueden elegir opciones de envío (retiro en tienda o entrega a domicilio) y métodos de pago (transferencia, débito o crédito).
 
+## Navegación:
+![Video gif demostrativo del proyecto](https://github.com/NesAlbSup/EntregaFinal-Suppi/blob/main/gif.gif)
+
