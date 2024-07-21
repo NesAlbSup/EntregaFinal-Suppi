@@ -15,25 +15,25 @@ Clonar el repositorio.
 
 ## Instalar las dependencias necesarias usando npm:
 
-´´´sh
+```sh
 npm install
-´´´
+```
 
 ## Iniciar el servidor de desarrollo:
 
-´´´sh
+```sh
 npm start
-´´´
+```
 
 ## Acceder a la aplicación en el navegador:
 
-´´´sh
+```sh
 http://localhost:5173/
-´´´
+```
 
 ## Estructura del Proyecto
 
-´´´plaintext
+```plaintext
 .
 ├── src
 │   ├── assets
@@ -53,7 +53,7 @@ http://localhost:5173/
 │   ├── App.js
 │   ├── index.js
 └─── README.md
-´´´
+```
 
 ## Rutas Disponibles
 
@@ -70,7 +70,7 @@ http://localhost:5173/
 
 ## Rutas de Navegación
 
-´´´plaintext
+```plaintext
 <Route path="/" element={<ItemListContainer greeting={customGreeting} />} />
 <Route path="/catalogo" element={<Catalogo sideBar={true} />} />
 <Route path="/categorias/:categoryId" element={<Catalogo sideBar={true} />} />
@@ -81,7 +81,7 @@ http://localhost:5173/
 <Route path="/carrito" element={<CartBrief />} />
 <Route path="/Checkout" element={<Pago />} />
 <Route path="/resultadopago" element={<ResultadoPago />} />
-´´´
+```
 
 ## Tecnologías Utilizadas
 
