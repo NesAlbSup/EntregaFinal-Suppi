@@ -1,0 +1,66 @@
+.prox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .prox-content {
+    text-align: center;
+  }
+  
+  .prox-content h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .prox-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .prox-content button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #953131;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    transition: background-color 0.3s ease;
+  }
+  
+  .prox-content button:hover {
+    background-color: #7a2525;
+  }
+  
+  /* Animación de entrada */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease;
+  }
+  
+  .link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #953131;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    margin: 1rem;
+  }
+  
+  .link-button:hover {
+    background-color: #7a2525;
+  }

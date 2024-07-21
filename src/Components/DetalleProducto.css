@@ -1,0 +1,79 @@
+.greetings {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  
+  .detalle-producto-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    flex: 1; 
+    border-radius: 8px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease;
+  }
+  
+  .producto-card {
+    width: 300px; /* Ancho fijo para la imagen del producto */
+    margin-right: 20px; /* Espacio entre la imagen y la información */
+    flex: 0 0 auto; /* Fija el ancho y evita que crezca */
+    overflow: hidden; /* Oculta el desbordamiento */
+  }
+  
+  .producto-info {
+    flex: 1; /* El contenido ocupa el espacio disponible */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .producto-image {
+    max-width: 100%; /* Ajusta la imagen para que sea responsive */
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Transición suave para el zoom */
+  }
+  
+  .producto-card:hover .producto-image {
+    transform: scale(1.2); /* Efecto de zoom */
+  }
+  
+  .agregar-carrito-button {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cantidad-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 1rem; /* Espacio entre los botones y otros elementos */
+  }
+  
+  .cantidad-buttons button {
+    margin: 0 2px; /* Espacio entre los botones */
+  }
+  
+  .cantidad-buttons span {
+    padding: 0 5px;
+    min-width: 30px;
+    text-align: center;
+  }
+  
+  .producto-info h1 {
+    font-size: 1.2em; /* Tamaño de fuente para el nombre del producto */
+    margin-bottom: 10px; /* Espacio inferior */
+    word-wrap: break-word; /* Rompe la palabra larga en líneas */
+  }
+  

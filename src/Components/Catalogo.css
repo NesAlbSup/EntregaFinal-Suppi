@@ -1,0 +1,93 @@
+.catalogo-container {
+    flex: 1; /* El contenido del catálogo ocupa el espacio restante */
+    padding: 20px;
+    margin-left: 220px; /* Ancho de la barra lateral */
+    transition: margin-left 0.3s ease;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Ajusta aquí el ancho mínimo y máximo de cada columna */
+    gap: 10px;
+    margin-left: -20px; /* Margen izquierdo negativo para compensar el gap */
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease;
+  }
+  
+.product-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #333333;
+    max-width: 200px;
+    min-height: 300px;
+    max-height: 320px;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-info {
+    padding: 16px;
+  }
+  
+  .product-info h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-info p {
+    margin: 5px 0;
+  }
+  
+  .product-link {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    margin-top: 100px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar input[type="checkbox"] {
+    margin-right: 0px;
+  }
+  

@@ -1,0 +1,68 @@
+.right-sidebar-card {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 300px;
+  background: linear-gradient(to bottom, #a15555, #ffffff);
+  box-shadow: 0 10px 12px rgba(0, 0, 0,0.5);
+  padding: 20px;
+  z-index: 9999;
+  border-radius: 8px;
+  margin-top: 0px; 
+}
+
+/* Estilo específico para el carrito de la derecha */
+.right-sidebar-card {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  width: 300px;
+  background-color: #f0f0f0;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  z-index: 9999;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.right-sidebar-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.right-sidebar-card .card-content {
+  font-size: 1rem;
+}
+
+
+.cart-checkout-item, .cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.cart-checkout-item-details, .cart-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-checkout-item-details p, .cart-item-details p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}

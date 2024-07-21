@@ -1,0 +1,233 @@
+.checkout-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cart-methods-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-top: 50px;
+}
+
+.cart-checkout-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+
+.cart-checkout-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.cart-checkout-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-checkout-item-details p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.payment-methods-container, .delivery-methods-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.payment-methods, .delivery-methods {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.payment-methods label, .delivery-methods label {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.payment-methods input[type="radio"], .delivery-methods input[type="radio"] {
+  margin-right: 10px;
+}
+
+.typePago, .typedelivery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.typePago label, .typedelivery label {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.credit-card-form, .delivery-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.credit-card-form .form-group, .delivery-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.credit-card-form .form-group label, .delivery-form .form-group label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.credit-card-form .form-group input, .delivery-form .form-group input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pay-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pay-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
+}
+
+.delivery-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group-dom {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.form-group-dom:last-child {
+  margin-right: 0;
+}
+
+.form-group-dom label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group-dom input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+  .form-group-dom {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .form-group-dom:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cbu {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: red;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+.Toastify__toast--error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
